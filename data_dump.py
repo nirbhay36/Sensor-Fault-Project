@@ -6,10 +6,10 @@ import json
 client = pymongo.MongoClient("mongodb://localhost:27017/neurolabDB")
 
 # Database Name
-dataBase ="APS"
+dataBase ="aps"
 
 # Collection  Name
-collection = "Sensor"
+collection = "sensor"
 
 data_file="/config/workspace/aps_failure_training_set1.csv"
 
