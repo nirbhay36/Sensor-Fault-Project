@@ -29,10 +29,10 @@ class ModelEvaluation:
 
     def initiate_model_evaluation(self)->artifact_entity.ModelEvaluationArtifact:
         try:
-            #if saved model folder has model the we will compare 
+            #if saved model folder has model then we will compare 
             #which model is best trained or the model from saved model folder
 
-            logging.info("if saved model folder has model the we will compare "
+            logging.info("if saved model folder has model then we will compare "
             "which model is best trained or the model from saved model folder")
             latest_dir_path = self.model_resolver.get_latest_dir_path()
             if latest_dir_path==None:
